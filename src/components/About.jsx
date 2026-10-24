@@ -156,12 +156,25 @@ export default function About() {
 
               <div className="data-divider my-6" />
 
-              <a href={profile.cv} download className="btn-primary w-full">
-                <Download size={14} /> ./download-cv
-              </a>
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                <a
+                  href="/CV.pdf"
+                  download="Ayokunle_Obadare_CV.pdf"
+                  className="btn-primary flex w-full items-center justify-center gap-2"
+                >
+                  <Download size={14} /> Download PDF
+                </a>
+                <a
+                  href="/CV.docx"
+                  download="Ayokunle_Obadare_CV.docx"
+                  className="flex w-full items-center justify-center gap-2 rounded-lg border border-neon-400/30 bg-neon-400/5 px-4 py-3 font-mono text-xs text-neon-300 transition hover:border-neon-400/60 hover:bg-neon-400/10"
+                >
+                  <Download size={14} /> Download DOCX
+                </a>
+              </div>
               <div className="mt-3 flex items-center justify-center gap-1.5 font-mono text-[10px] text-slate-500">
                 <Shield size={10} className="text-secure-400" />
-                PDF · Verified · Updated Jan 2026
+                Choose PDF or Word format · Updated Oct 2026
               </div>
             </div>
           </motion.div>

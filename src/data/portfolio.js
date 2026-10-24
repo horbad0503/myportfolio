@@ -18,6 +18,7 @@ export const profile = {
   phoneDisplay: "+234 700 702 90750",
   email: "obaday0503@gmail.com",
   cv: "/CV.pdf",
+  cvWord: "/CV.docx",
   avatar: "/images/upwork-1.jpeg",
   heroBg: "/images/profile.jpeg",
   aboutBg: "/images/profile.jpeg",
