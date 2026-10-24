@@ -355,7 +355,7 @@ export const projects = [
     description:
       "Non-profit missionary platform with donation system, event calendar, and global outreach tools.",
     tech: ["WordPress", "PHP", "MySQL"],
-    link: "https://obadtech.freehosting.dev/church/",
+    link: "https://worldlivingmissionary.infinityfree.me/",
     img: "/site/church.png",
   },
   {
